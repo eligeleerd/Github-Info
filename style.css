@@ -4,6 +4,7 @@
 html {
   box-sizing: border-box;
   font-size: 25px;
+  
 }
 
 *, *:before, *:after {
@@ -15,8 +16,8 @@ body {
   margin: 1rem;
   font-family: serif;
   line-height: 1.5;
-  color:#aaf542;
-  background-color:#4281f5;
+  color:#42f578bd;
+  background-color:#ffffff;
 }
 
 /* images and videos max out at full width */
