@@ -12,11 +12,11 @@ html {
 }
 
 /* adjust typography defaults */
-body .p1 {
+body {
   margin: 1rem;
  font-family: "Lucida Console", "Courier New", monospace;  
  line-height: 1.5;
-  color:#539E62;
+  color:#539e62;
   background-color:#ffffff;
 }
 
