@@ -14,9 +14,9 @@ html {
 /* adjust typography defaults */
 body {
   margin: 1rem;
-  font-family: monospace;
+  font-family: "Lucida Console", "Courier New", monospace;  
   line-height: 1.5;
-  color:#1fee5d81;
+  color:#539E62;
   background-color:#ffffff;
 }
 
