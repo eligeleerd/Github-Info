@@ -5,7 +5,7 @@
        p.inset {border-style: inset;} 
     </style>
     <meta charset="UTF-8"> 
-    <title>About Sara Jewel</title>
+    <title></title>
     <link rel="stylesheet" href="style.css">
     <meta name="INDEX" content="INDEX,FOLLOW">
     <meta name="description" content="Lehigh University DES 070 Web Design I">
@@ -16,82 +16,174 @@
     
 </head>
 
-<body>
-    <center>
-    <h1>About Sara Jewel</h1>
-    </center>
+<!DOCTYPE html> 
+<html>
+    <head>
+    <style>
+         body{
+             font-family: 'Courier New', Courier, monospace;
+             color: #fff
+             
+             
+            
 
-   
-<center>
-    <img src="dog.jpg"width="130" ATL="align box" AlIGN=CENTER>
-    <img src="spaghetti.jpg"width="150" ATL="align box" ALIGN=CENTER>
-    <img src="KappaDelta.jpg"width="150"ATL="align box"ALIGN=CENTER>
-
-</center>
-
-<!--I can start my information about Sara after this-->
-
-<table>
-    <tr>
-        <td><img src="sunnyreading.jpg"></td>
-        <p class="inset">Favorite thing to do on a sunny afternoon?</p>
-        <td>Sara loves to lay outside and read on a sunny afternoon.</td>
-
-    </tr>
-    <tr>
-       <td><img src="Friyay.jpg"></td>
-       <p class="inset">What is your favorite day of the week?</p>
-       <td>Sara's favorite day of the week is Friyay!</td>
-
-    </tr>
-    <tr>
-        <td><img src="BidDay.jpg"></td>
-        <p class="inset">What is yout fondest memory of Lehigh?</p>
-        <td>Sara's freshman year bid day is her fondest memory at Lehigh</td>
+         }
         
-    </tr>
-    <tr>
-        <td><img src=""></td>
-        <p class="inset">If you could have any animal as a pet what would it be?</p>
-        <td>Sara's dream animal is a Dog of most breeds</td>
-    </tr>
-    <tr>
-        <td><img src="StrandedOcean.jpg"></td>
-        <p class="inset">Would you rather be stranded in Space or stranded in the middle of the ocean?</p>
-        <td>If Sara had to choose between being stranded in space or in the middle of the ocena, she would choose the ocean</td>
+         .grid {
+           display: grid; 
         
-    </tr>
-    <tr>
-        <td><img src="sushi.png"></td>
-        <p class="inset">What's your favorite meal to cook and eat?</p>
-        <td>Sara's favorite meal to eat is sushi, but loves to cook pasta when she's in the mood</td>
-        
-    </tr>
-    <tr>
-        <td><img src="Hangover.jpg"></td>
-        <p class="inset">What's the first movie that comes to your mind when you think of movies?</p>
-        <td>When Sara thinks of a movie, the first thing that comes to mind is the Hangover</td>
-        
-    </tr>
-    <tr>
-        <p class="inset">Are you excited for what this class entails?</p>
-        <td>Sara is very happy to take this class, and is excited to see what she can learn from it</td>
-    </tr>
-    <tr>
-        <td><img src="GraphicDesign.jpg"></td>
-        <p class="inset">Fianlly, what is your major?</p>
-        <td>Sara's double majoring in Graphic Design and Art History, while minoring in Communications</td>
-        
-    </tr>
-</table>
+           grid-template-rows: 16REM 16rem 16rem;
+           grid-template-columns: auto auto auto auto;
+           margin: 0 auto;
+           
+           gap: 0px;
+           height: 100%;
+           text-align: center;
+           vertical-align: middle;
+           padding: 0px
+           
 
-<center>
-    <h2>
-        I hope you enjoyed my site about Sara, and learned a couple things about your classmate! </h2>
-        <img src="dog.jpg">
-        <img src="spaghetti.jpg">
-        <img src="KappaDelta.jpg">
-</center>
-   
-</body>
-</html>
+          
+        
+           
+        }
+          
+        #item-0 {
+        
+           background-color: #1AD9D8; 
+           grid-row-start: 1;
+           grid-column-start: 1;
+        
+           grid-row-end: 2;
+           grid-column-end: 5;
+           font-size: 40px;
+           align-items: center;
+           
+        }
+        #item-1 {
+        
+           background-color: #D9601A; 
+           grid-row-start: 2;
+           grid-column-start: 1;
+        
+           grid-row-end: 3;
+           grid-column-end: 3;
+           font-size: 40px;
+           
+        }
+        #item-2 {
+        
+           background-color: #FF8138; 
+           grid-row-start: 2;
+           grid-column-start: 3;
+        
+           grid-row-end: 3;
+           grid-column-end: 5;
+           font-size: 40px;
+        }
+        #item-3 {
+        
+           background-color: #8C3908; 
+           grid-row-start: 3;
+           grid-column-start: 1;
+        
+           grid-row-end: 4;
+           grid-column-end: 4;
+           font-size: 40px;
+        }
+        #item-4 {
+        
+           background-color: #1AD9D8; 
+           grid-row-start: 3;
+           grid-column-start: 4;
+        
+           grid-row-end: 4;
+           grid-column-end: 5;
+           font-size: 40px;
+        }
+
+        .grid2 {
+               display: grid; 
+            
+               grid-template-rows: 16rem 16rem 9rem;
+               grid-template-columns: Auto auto auto;
+               
+               gap: 0px;
+               height: 100%;
+               text-align: center;
+               padding:0px
+               
+            }
+              
+            #item-5 {
+            
+               background-color: #D9601A; 
+               grid-row-start: 1;
+               grid-column-start: 1;
+            
+               grid-row-end: 2;
+               grid-column-end: 2;
+               font-size: 40px;
+            }
+            #item-6 {
+            
+               background-color: #FF8138; 
+               grid-row-start: 1;
+               grid-column-start: 2;
+            
+               grid-row-end: 2;
+               grid-column-end: 3;
+               font-size: 40px;
+            }
+            #item-7 {
+            
+               background-color: #D9601A; 
+               grid-row-start: 1;
+               grid-column-start: 3;
+            
+               grid-row-end: 2;
+               grid-column-end: 4;
+               font-size: 40px;
+            }
+            #item-8 {
+            
+               background-color: #8C3908; 
+               grid-row-start: 2;
+               grid-column-start: 1;
+            
+               grid-row-end: 3;
+               grid-column-end: 4;
+               font-size: 40px;
+            }
+            #item-9 {
+            
+               background-color: #1AD9D8; 
+               grid-row-start: 3;
+               grid-column-start: 1;
+            
+               grid-row-end: 4;
+               grid-column-end: 4;
+               font-size: 40px;
+            }
+    
+        </style>
+        </head>
+        <body>
+        
+        
+        <div class="grid">
+          <div id="item-0">HEADER</div>
+          <div id="item-1">SIDEBAR 1</div>
+          <div id="item-2">SIDEBAR 2</div>
+          <div id="item-3">MAIN</div>
+          <div id="item-4">DIV</div>
+        </div>
+            
+            <div class="grid2">
+              <div id="item-5">SIDEBAR 1</div>
+              <div id="item-6">SIDEBAR 2</div>
+              <div id="item-7">SIDEBAR 3</div>
+              <div id="item-8">MAIN</div>
+              <div id="item-9">FOOTER</div>
+            </div>
+        </body>
