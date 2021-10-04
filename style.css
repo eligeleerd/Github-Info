@@ -1,34 +1,9 @@
 /* a minimalist set of CSS resets */
 
 /* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 25px;
-  
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* adjust typography defaults */
-body {
-  margin: 1rem;
- font-family: "Lucida Console", "Courier New", monospace;  
- line-height: 1.5;
-  color:#539e62;
-  background-color:#ffffff;
-}
-
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%    
-
-         }
+html {  
         
-         .eligrid {
+ } .eligrid {
            display: grid; 
         
            grid-template-rows: 16REM 16rem 16rem;
